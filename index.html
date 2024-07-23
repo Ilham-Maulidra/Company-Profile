@@ -102,6 +102,26 @@
   </section>t
   <!-- Akhir about us -->
 
+  <!-- Client -->
+  <div class="parallax-container">
+    <div class="parallax"><img src="img/slider/4.png"></div>
+    <div class="container clients">
+      <h3 class="center light white-text">Our Clients</h3>
+      <div class="row">
+        <div class="col m4 s12 center">
+          <img src="img/clients/tokopedia.png" alt="Tokopedia">
+        </div>
+        <div class="col m4 s12 center">
+          <img src="img/clients/gojek.png" alt="Gojek">
+        </div>
+        <div class="col m4 s12 center">
+          <img src="img/clients/traveloka.png" alt="Traveloka">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Akhir Client -->
+
   <!--JavaScript at end of body for optimized loading-->
   <script type="text/javascript" src="js/materialize.min.js"></script>
   <script>
@@ -115,6 +135,9 @@
       duration: 600,
       interval: 3000
     });
+
+    const parallax = document.querySelectorAll('.parallax');
+    M.Parallax.init(parallax);
   </script>
 </body>
 
